@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="4"/>
+
+  <remote fetch="git://git.openembedded.org" name="oe"/>
+  <remote fetch="git://github.com" name="gith"/>
+  <remote fetch="git://git.yoctoproject.org" name="yocto"/>
+  <remote fetch="git://git.linaro.org/openembedded" name="linaro"/>
+  <remote fetch="git://git.toradex.com" name="trdx"/>
+
+  <project remote="oe"		revision="88f013cee4cdec91acee59ffbc7bcea6dd2b8d2e" upstream="1.18"	name="bitbake"		path="stuff/openembedded-core/bitbake"/>
+  <project remote="oe" 		revision="3549f5f203363302256848bb33c05c4fd4871948" upstream="dylan"	name="openembedded-core"	path="stuff/openembedded-core"/>
+  <project remote="oe"		revision="13ae5105ee30410136beeae66ec41ee4a8a2e2b0" upstream="dylan"	name="meta-openembedded"	path="stuff/meta-openembedded"/>
+  <project remote="gith"	revision="7543b99f99592d0c23a5e66007b8631751b9d79c" upstream="angstrom-v2013.06-yocto1.4"	name="Angstrom-distribution/meta-angstrom"	path="stuff/meta-angstrom"/>
+  <project remote="gith"	revision="2140f2a114f7009f86479afb12a524bb157cbb0e" upstream="dylan"	name="OSSystems/meta-browser"	path="stuff/meta-browser"/>
+  <project remote="linaro"	revision="6321a745aba4fc2ddb559d4606b0a98afc8a1ca2" upstream="dylan"	name="meta-linaro"	path="stuff/meta-linaro"/>
+  <project remote="trdx"	revision="f69ffe4cebf94f48f02838002dbc3544b3ffb460" upstream="dylan"	name="meta-lxde"	path="stuff/meta-lxde"/>
+  <project remote="trdx"	revision="34090988ad86a6a97a21f7f410b461b6c19943fa" upstream="master"	name="meta-toradex"	path="stuff/meta-toradex"/>
+
+</manifest>

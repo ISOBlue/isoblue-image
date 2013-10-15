@@ -1,0 +1,20 @@
+Toradex oe-core setup
+=====================
+
+Setting up an oe-core setup with the help of repo.
+(more on repo: http://code.google.com/p/git-repo/ )
+
+Install the repo bootstrap binary: 
+
+  mkdir ~/bin
+  PATH=~/bin:$PATH
+  curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+  chmod a+x ~/bin/repo
+
+Create a directory for your oe-core setup to live in and clone the meta information. 
+
+  mkdir oe-core
+  cd oe-core
+  repo init -u file:///home/trdx/oe-disk/repo -b VF50_LinuxImageV2.1
+  repo sync
+

@@ -3,11 +3,11 @@
 
   <default sync-j="4"/>
 
-  <remote fetch="git://git.openembedded.org" name="oe"/>
-  <remote fetch="git://github.com" name="gith"/>
-  <remote fetch="git://git.yoctoproject.org" name="yocto"/>
-  <remote fetch="git://git.linaro.org/openembedded" name="linaro"/>
-  <remote fetch="git://git.toradex.com" name="trdx"/>
+  <remote fetch="http://git.openembedded.org" name="oe"/>
+  <remote fetch="http://github.com" name="gith"/>
+  <remote fetch="http://git.yoctoproject.org" name="yocto"/>
+  <remote fetch="http://git.linaro.org/openembedded" name="linaro"/>
+  <remote fetch="http://git.toradex.com" name="trdx"/>
 
   <project remote="oe"		revision="88f013cee4cdec91acee59ffbc7bcea6dd2b8d2e" upstream="1.18"	name="bitbake"		path="stuff/openembedded-core/bitbake"/>
   <project remote="oe" 		revision="3549f5f203363302256848bb33c05c4fd4871948" upstream="dylan"	name="openembedded-core"	path="stuff/openembedded-core"/>

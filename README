@@ -1,31 +1,51 @@
-Toradex oe-core setup
+Toradex oe-core Setup
 =====================
 
-Setting up an oe-core setup with the help of repo.
-(more on repo: http://code.google.com/p/git-repo/ )
+To simplify installation we provide a repo manifest which manages the different git repositories 
+and the used versions. (more on repo: http://code.google.com/p/git-repo/ )
 
-Install the repo bootstrap binary: 
+Install the repo bootstrap binary:
 
   mkdir ~/bin
   PATH=~/bin:$PATH
   curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
   chmod a+x ~/bin/repo
 
-Create a directory for your oe-core setup to live in and clone the meta information. 
+Create a directory for your oe-core setup to live in and clone the meta information.
 
   mkdir oe-core
   cd oe-core
-  repo init -u http://git.toradex.com/toradex-bsp-platform -b master
+  repo init -u http://git.toradex.com/toradex-bsp-platform.git -b master
   repo sync
 
-Create a development branch in all git repositories
+Optionally create a development branch in all git repositories
 
   repo start mybranch --all
 
-
-
-Source the file export to setup the environment. On first invocation this
-also copies a sample configuration to build/conf/*.conf. Adapt local.conf to
-your needs.
+Source the file export to setup the environment. On first invocation this also copies a sample 
+configuration to build/conf/*.conf.
 
   . export
+
+Adapt build/conf/local.conf to your needs. At least check the variables BB_NUMBER_THREADS, 
+PARALLEL_MAKE, and MACHINE. Set MACHINE to a preferred value and when you need a different 
+one override it from the command line.
+
+For Toradex modules the following machines exist:
+
+  apalis-t30
+  colibri-t20
+  colibri-t30
+  colibri-vf50
+
+e.g. set in local.conf
+
+  MACHINE ?= colibri-t30
+
+and then if you want to build for Apalis T30 instead use:
+
+  MACHINE=apalis-t30 bitbake angstrom-lxde-image
+
+More information on our developer website:
+
+  http://developer.toradex.com/software-resources/arm-family/linux/board-support-package/openembedded-(core)

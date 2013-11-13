@@ -40,9 +40,9 @@ For Toradex modules the following machines exist:
 
 e.g. set in local.conf
 
-  MACHINE ?= colibri-t30
+  MACHINE ?= "colibri-t30"
 
-and then if you want to build for Apalis T30 instead use:
+and then if you want to build for Apalis T30 instead, use the following command line:
 
   MACHINE=apalis-t30 bitbake angstrom-lxde-image
 

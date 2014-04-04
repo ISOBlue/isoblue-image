@@ -9,17 +9,17 @@
   <remote fetch="http://git.linaro.org/git-ro/openembedded" name="linaro"/>
   <remote fetch="http://git.toradex.com" name="trdx"/>
 
-  <project remote="oe"		revision="a1ced88ae46926e28005b83a74eaf89d70dc2b74"	upstream="1.20"	name="bitbake"			path="stuff/openembedded-core/bitbake"/>
-  <project remote="oe"		revision="198623d80d31f19c963e61d03cbcb12dd318dfdf"	upstream="dora"	name="openembedded-core"	path="stuff/openembedded-core"/>
+  <project remote="oe"		revision="3c694e20df3b1d442603300786580e4b2f4bf5f3"	upstream="1.20"	name="bitbake"			path="stuff/openembedded-core/bitbake"/>
+  <project remote="oe"		revision="ec8ae16e35fd7db6a5bb12412d50ab6f355b0f6e"	upstream="dora"	name="openembedded-core"	path="stuff/openembedded-core"/>
   <project remote="oe"		revision="40e0f371f3eb1628655c484feac0cebf810737b4"	upstream="dora"	name="meta-openembedded"	path="stuff/meta-openembedded"/>
-  <project remote="gith"	revision="7b7d0f427297ae2a0e4504fafe19eec0b15f49c0"	upstream="angstrom-v2013.12-yocto1.5"	name="Angstrom-distribution/meta-angstrom.git"	path="stuff/meta-angstrom"/>
-  <project remote="gith"	revision="62884dbc7131202e98fe0eb725695c108b91ebf0"	upstream="dora"	name="OSSystems/meta-browser.git"	path="stuff/meta-browser"/>
-  <project remote="linaro"	revision="e48001c5f1471f7b913febf62e210ed93e483e99"	upstream="dora"	name="meta-linaro.git"		path="stuff/meta-linaro"/>
+  <project remote="gith"	revision="dab3707b49b38112a9768a4c11b6d19266d9dadb"	upstream="angstrom-v2013.12-yocto1.5"	name="Angstrom-distribution/meta-angstrom.git"	path="stuff/meta-angstrom"/>
+  <project remote="gith"	revision="c94a11b2f0811961f56b75c699f299d3d90ecf1a"	upstream="dora"	name="OSSystems/meta-browser.git"	path="stuff/meta-browser"/>
+  <project remote="linaro"	revision="ec262e6952804a417ab7112c807a6af1dc6a2f8b"	upstream="dora"	name="meta-linaro.git"		path="stuff/meta-linaro"/>
   <project remote="trdx"	revision="bb906c7592ada0c6fcdb0c04b268087db0fb20cc"	upstream="dora"	name="meta-lxde.git"		path="stuff/meta-lxde"/>
-  <project remote="gith"	revision="af392c22bf6b563525ede4a81b6755ff1dd2c1c6"	upstream="dora"	name="Freescale/meta-fsl-arm.git"	path="stuff/meta-fsl-arm"/>
-  <project remote="gith"	revision="78a8f30e8693599e6a5a0e90acbae10766e58c7c"	upstream="dora"	name="Freescale/meta-fsl-arm-extra.git"	path="stuff/meta-fsl-arm-extra"/>
+  <project remote="gith"	revision="5fdb620c09df11e70434092f675c891e0ba84108"	upstream="dora"	name="Freescale/meta-fsl-arm.git"	path="stuff/meta-fsl-arm"/>
+  <project remote="gith"	revision="251c07f9d868e0100ccf74fd1706269c8d6911fb"	upstream="dora"	name="Freescale/meta-fsl-arm-extra.git"	path="stuff/meta-fsl-arm-extra"/>
   <project remote="gith" 	revision="5a12677ad000a926d23c444266722a778ea228a7"	upstream="dora"	name="Freescale/meta-fsl-demos.git"	path="stuff/meta-fsl-demos"/>
-  <project remote="trdx"	revision="5c319ee11a33bb76f6ba2ded72958c206864ba42"	upstream="V2.2" name="meta-toradex.git"		path="stuff/meta-toradex">
+  <project remote="trdx"	revision="7aee36706dd3fffd69d9ade4eaff1ed34207c488"	upstream="V2.2" name="meta-toradex.git"		path="stuff/meta-toradex">
   	<copyfile dest="export" src="buildconf/export"/>
   </project>
 

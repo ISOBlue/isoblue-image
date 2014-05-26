@@ -19,7 +19,7 @@
 	<project remote="gith"		revision="5fdb620c09df11e70434092f675c891e0ba84108"	upstream="dora"				name="Freescale/meta-fsl-arm.git"		path="stuff/meta-fsl-arm"/>
 	<project remote="gith"		revision="251c07f9d868e0100ccf74fd1706269c8d6911fb"	upstream="dora"				name="Freescale/meta-fsl-arm-extra.git"		path="stuff/meta-fsl-arm-extra"/>
 	<project remote="gith"		revision="5a12677ad000a926d23c444266722a778ea228a7"	upstream="dora"				name="Freescale/meta-fsl-demos.git"		path="stuff/meta-fsl-demos"/>
-	<project remote="trdx"		revision="1b1dc2bb50aac8c83dd12eb6fd1a61e26d5e29e6"	upstream="V2.2"				name="meta-toradex.git"				path="stuff/meta-toradex">
+	<project remote="trdx"		revision="f6ad901fc527daf0f23d5021b7f7bf0db0fb8d35"	upstream="V2.2"				name="meta-toradex.git"				path="stuff/meta-toradex">
 		<copyfile dest="export" src="buildconf/export"/>
 	</project>
 

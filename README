@@ -49,3 +49,7 @@ and then if you want to build for Apalis T30 instead, use the following command 
 More information on our developer website:
 
   http://developer.toradex.com/software-resources/arm-family/linux/board-support-package/openembedded-(core)
+
+For Toradex use:
+To generate a manifest from what is currently checked out:
+repo manifest -r -o manifest.xml

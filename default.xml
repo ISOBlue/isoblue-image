@@ -15,7 +15,7 @@
   <project name="OSSystems/meta-browser.git" path="stuff/meta-browser" remote="gith" revision="fb6df963376c9140658c09b763bbf524cd274db4" upstream="master"/>
   <project name="bitbake" path="stuff/openembedded-core/bitbake" remote="oe" revision="8e386a710023e000a504e05c13da0106df0c7f3a" upstream="1.22"/>
   <project name="meta-linaro.git" path="stuff/meta-linaro" remote="linaro" revision="610ff67118ae495d284626895243fb3c3c42835d" upstream="daisy"/>
-  <project name="meta-lxde.git" path="stuff/meta-lxde" remote="trdx" revision="d5a2a2c4552164009d6199d3767aa598e67c4c40" upstream="daisy"/>
+  <project name="meta-lxde.git" path="stuff/meta-lxde" remote="trdx" revision="92fa6c0891a0d45e496c0b84a64fd35f17743118" upstream="daisy"/>
   <project name="meta-openembedded" path="stuff/meta-openembedded" remote="oe" revision="d85b01997ce8cc354ccc53f97fdffc79cf2277d5" upstream="daisy"/>
   <project name="meta-toradex.git" path="stuff/meta-toradex" remote="trdx" revision="5814be90044c872af7c01e6ad8f452e39d745c8b" upstream="V2.3">
     <copyfile dest="export" src="buildconf/export"/>

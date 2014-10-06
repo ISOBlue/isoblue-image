@@ -8,7 +8,7 @@
   
   <default sync-j="4"/>
   
-  <project name="Angstrom-distribution/meta-angstrom.git" path="stuff/meta-angstrom" remote="gith" revision="a455a433bc70ed100d534082d152c5e8dd74e2d1" upstream="angstrom-v2014.06-yocto1.6"/>
+  <project name="Angstrom-distribution/meta-angstrom.git" path="stuff/meta-angstrom" remote="gith" revision="c5ecef411492023eedd3e5f2876c77bf87ad4aae" upstream="angstrom-v2014.06-yocto1.6"/>
   <project name="Freescale/meta-fsl-arm-extra.git" path="stuff/meta-fsl-arm-extra" remote="gith" revision="456c27085a70bb1385a4c2e28ba80ac74d6f533e" upstream="daisy"/>
   <project name="Freescale/meta-fsl-arm.git" path="stuff/meta-fsl-arm" remote="gith" revision="5cc4f08776a6d0f91ca6d7fb409e64c99333e137" upstream="daisy"/>
   <project name="Freescale/meta-fsl-demos.git" path="stuff/meta-fsl-demos" remote="gith" revision="27fdb2f2642ecd55d5633bde880dd4c37acd0d42" upstream="daisy"/>
@@ -17,7 +17,7 @@
   <project name="meta-linaro.git" path="stuff/meta-linaro" remote="linaro" revision="610ff67118ae495d284626895243fb3c3c42835d" upstream="daisy"/>
   <project name="meta-lxde.git" path="stuff/meta-lxde" remote="trdx" revision="92fa6c0891a0d45e496c0b84a64fd35f17743118" upstream="daisy"/>
   <project name="meta-openembedded" path="stuff/meta-openembedded" remote="oe" revision="d85b01997ce8cc354ccc53f97fdffc79cf2277d5" upstream="daisy"/>
-  <project name="meta-toradex.git" path="stuff/meta-toradex" remote="trdx" revision="5814be90044c872af7c01e6ad8f452e39d745c8b" upstream="V2.3">
+  <project name="meta-toradex.git" path="stuff/meta-toradex" remote="trdx" revision="bd734b6cfe0b820a5ad0b5f0345d39d855c3a6f1" upstream="V2.3">
     <copyfile dest="export" src="buildconf/export"/>
   </project>
   <project name="openembedded-core" path="stuff/openembedded-core" remote="oe" revision="9c45575a9df01f0d36fb03120ec86d55b15819f3" upstream="daisy"/>

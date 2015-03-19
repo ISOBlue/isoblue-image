@@ -8,17 +8,17 @@
   
   <default sync-j="4"/>
   
-  <project name="Angstrom-distribution/meta-angstrom.git" path="stuff/meta-angstrom" remote="gith" revision="bbdd66a51e9e9a6db33f7d246fc636d1508550c2" upstream="angstrom-v2014.06-yocto1.6"/>
-  <project name="Freescale/meta-fsl-arm-extra.git" path="stuff/meta-fsl-arm-extra" remote="gith" revision="e1085deb3d915d2a95a65cceadc77c6de0dadfb6" upstream="daisy"/>
-  <project name="Freescale/meta-fsl-arm.git" path="stuff/meta-fsl-arm" remote="gith" revision="9bc540eec9a7e280af13371ea70650fcc47ea627" upstream="daisy"/>
-  <project name="Freescale/meta-fsl-demos.git" path="stuff/meta-fsl-demos" remote="gith" revision="f141c7d1158b8addbd6f1ed047a1b47c2ed85f8f" upstream="daisy"/>
+  <project name="Angstrom-distribution/meta-angstrom.git" path="stuff/meta-angstrom" remote="gith" revision="angstrom-v2014.12-yocto1.7" upstream="master"/>
+  <project name="Freescale/meta-fsl-arm-extra.git" path="stuff/meta-fsl-arm-extra" remote="gith" revision="dizzy" upstream="dizzy"/>
+  <project name="Freescale/meta-fsl-arm.git" path="stuff/meta-fsl-arm" remote="gith" revision="dizzy" upstream="dizzy"/>
+  <project name="Freescale/meta-fsl-demos.git" path="stuff/meta-fsl-demos" remote="gith" revision="dizzy" upstream="dizzy"/>
   <project name="OSSystems/meta-browser.git" path="stuff/meta-browser" remote="gith" revision="63963cc56c8d0291779693e62b66cb16e5c86883" upstream="master"/>
-  <project name="bitbake" path="stuff/openembedded-core/bitbake" remote="oe" revision="8e386a710023e000a504e05c13da0106df0c7f3a" upstream="1.22"/>
-  <project name="meta-linaro.git" path="stuff/meta-linaro" remote="linaro" revision="bc63e777ad2748b8bfa7fa70ffd74700fa21a567" upstream="daisy"/>
-  <project name="meta-lxde.git" path="stuff/meta-lxde" remote="trdx" revision="0cc697317b996ed0ac2c2b42208f0799d0f51b16" upstream="daisy"/>
-  <project name="meta-openembedded" path="stuff/meta-openembedded" remote="oe" revision="d3d14d3fcca7fcde362cf0b31411dc4eea6d20aa" upstream="daisy"/>
-  <project name="meta-toradex.git" path="stuff/meta-toradex" remote="trdx" revision="d973f0023d6d601442ba493030d43ff364a574a8" upstream="V2.3">
+  <project name="bitbake" path="stuff/openembedded-core/bitbake" remote="oe" revision="1.24" upstream="1.24"/>
+  <project name="meta-linaro.git" path="stuff/meta-linaro" remote="linaro" revision="dizzy" upstream="dizzy"/>
+  <project name="meta-lxde.git" path="stuff/meta-lxde" remote="trdx" revision="d5a2a2c4552164009d6199d3767aa598e67c4c40" upstream="daisy"/>
+  <project name="meta-openembedded" path="stuff/meta-openembedded" remote="oe" revision="dizzy" upstream="dizzy"/>
+  <project name="meta-toradex.git" path="stuff/meta-toradex" remote="trdx" revision="V2.3-next" upstream="V2.3-next">
     <copyfile dest="export" src="buildconf/export"/>
   </project>
-  <project name="openembedded-core" path="stuff/openembedded-core" remote="oe" revision="4bd4da1e1433ae64720f59d48188ecd1960dac28" upstream="daisy"/>
+  <project name="openembedded-core" path="stuff/openembedded-core" remote="oe" revision="dizzy" upstream="dizzy"/>
 </manifest>

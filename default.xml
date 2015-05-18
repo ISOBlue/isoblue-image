@@ -20,5 +20,5 @@
   <project name="meta-toradex.git" path="stuff/meta-toradex" remote="trdx" revision="ba0a55762605c6707310ee56f8ba21959ecadfd7" upstream="V2.4">
     <copyfile dest="export" src="buildconf/export"/>
   </project>
-  <project name="openembedded-core" path="stuff/openembedded-core" remote="oe" revision="4a44c9287d80dec0973b31d30d3d6250ce4b4df4" upstream="dizzy"/>
+  <project name="openembedded-core" path="stuff/openembedded-core" remote="oe" revision="96270e79a70960289856cf424c9e4c1894acb18c" upstream="dizzy"/>
 </manifest>

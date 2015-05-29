@@ -17,7 +17,7 @@
   <project name="meta-linaro.git" path="stuff/meta-linaro" remote="linaro" revision="59655ebd6e10d9f66664db4c2d63c7fac606779d" upstream="dizzy"/>
   <project name="meta-lxde.git" path="stuff/meta-lxde" remote="trdx" revision="2bc2d0940b54858d71ea2c1b6aa6b27bc9bab506" upstream="dizzy"/>
   <project name="meta-openembedded" path="stuff/meta-openembedded" remote="oe" revision="5b6f39ce325d490fc382d5d59c5b8b9d5fa38b38" upstream="dizzy"/>
-  <project name="meta-toradex.git" path="stuff/meta-toradex" remote="trdx" revision="ba0a55762605c6707310ee56f8ba21959ecadfd7" upstream="V2.4">
+  <project name="meta-toradex.git" path="stuff/meta-toradex" remote="trdx" revision="a76e317a2ae638ed62ccf88636aa79d0ae368d78" upstream="V2.4">
     <copyfile dest="export" src="buildconf/export"/>
   </project>
   <project name="openembedded-core" path="stuff/openembedded-core" remote="oe" revision="96270e79a70960289856cf424c9e4c1894acb18c" upstream="dizzy"/>

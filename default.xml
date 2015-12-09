@@ -8,16 +8,16 @@
   
   <default sync-j="4"/>
   
-  <project name="Angstrom-distribution/meta-angstrom.git" path="stuff/meta-angstrom" remote="gith" revision="21c77446ae8ce0d5a4bc0f9b285fde340507f061" upstream="angstrom-v2015.06-yocto1.8"/>
+  <project name="Angstrom-distribution/meta-angstrom.git" path="stuff/meta-angstrom" remote="gith" revision="4a04eeaf3cbe5d0006ea552e78c43aefb095c40b" upstream="angstrom-v2015.06-yocto1.8"/>
   <project name="Freescale/meta-fsl-arm-extra.git" path="stuff/meta-fsl-arm-extra" remote="gith" revision="41e79c6bd055f12b6252618c22c43a2fed5cfb49" upstream="fido"/>
-  <project name="Freescale/meta-fsl-arm.git" path="stuff/meta-fsl-arm" remote="gith" revision="e0142e1ea53c6504f8cc9c9be55959ce032d798e" upstream="fido"/>
+  <project name="Freescale/meta-fsl-arm.git" path="stuff/meta-fsl-arm" remote="gith" revision="c9f259a4bf8472dfa3ff75f1c3fcbe5e0ded7aaf" upstream="fido"/>
   <project name="Freescale/meta-fsl-demos.git" path="stuff/meta-fsl-demos" remote="gith" revision="17f9da65efb5c65c1d44b5cc18584034b29a742b" upstream="fido"/>
-  <project name="OSSystems/meta-browser.git" path="stuff/meta-browser" remote="gith" revision="c44a4ac0970938999c2533042a6629f37d7047cc" upstream="master"/>
+  <project name="OSSystems/meta-browser.git" path="stuff/meta-browser" remote="gith" revision="06aab8ea56aa130f26a3651fc3a370fba3d967f1" upstream="master"/>
   <project name="bitbake" path="stuff/openembedded-core/bitbake" remote="oe" revision="a9e23e0066ea4dc16806ed3d269587ad1c895353" upstream="1.26"/>
-  <project name="meta-linaro.git" path="stuff/meta-linaro" remote="linaro" revision="3f1933242062d1cf473d20b86fa4582963ff9441" upstream="fido"/>
-  <project name="meta-lxde.git" path="stuff/meta-lxde" remote="trdx" revision="f118346ac37052d002c299f0abb079fd28eb4fac" upstream="fido"/>
-  <project name="meta-openembedded" path="stuff/meta-openembedded" remote="oe" revision="df2f700d66bace65f5d802225232d01cf511fe81" upstream="fido"/>
-  <project name="meta-toradex.git" path="stuff/meta-toradex" remote="trdx" revision="e474eb8a4b6e9651052fe7eb86bfd5826c052c2c" upstream="V2.5">
+  <project name="meta-linaro.git" path="stuff/meta-linaro" remote="linaro" revision="08a46787862966f2236c5a9b3eb4d4ec68263593" upstream="fido"/>
+  <project name="meta-lxde.git" path="stuff/meta-lxde" remote="trdx" revision="dab628bb88504e72ef1ed2c47577c03934606ec4" upstream="fido"/>
+  <project name="meta-openembedded" path="stuff/meta-openembedded" remote="oe" revision="763de0599bd61eae1c122782b03e12b66319a2f1" upstream="fido"/>
+  <project name="meta-toradex.git" path="stuff/meta-toradex" remote="trdx" revision="de1ec723983d1d740b83f7678e374a21af98436a" upstream="V2.5">
     <copyfile dest="export" src="buildconf/export"/>
   </project>
   <project name="openembedded-core" path="stuff/openembedded-core" remote="oe" revision="f0873b83d693af4a103999160d67fcf25c7eedc1" upstream="fido"/>

@@ -33,7 +33,9 @@ one override it from the command line.
 
 For Toradex modules the following machines exist:
 
+  apalis-imx6
   apalis-t30
+  colibri-imx6
   colibri-t20
   colibri-t30
   colibri-vf50

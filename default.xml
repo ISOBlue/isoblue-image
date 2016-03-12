@@ -4,7 +4,7 @@
   <remote fetch="http://github.com/Freescale" name="githf" alias="repo"/>
   <remote fetch="http://github.com/OSSystems" name="githo" alias="repo"/>
   <remote fetch="http://git.linaro.org/git-ro/openembedded" name="linaro" alias="repo"/>
-  <remote fetch="http://git.openembedded.org" name="oe" alias="repo"/>
+  <remote fetch="http://github.com/openembedded" name="oe" alias="repo"/>
   <remote fetch="http://git.toradex.com" name="trdx" alias="repo"/>
   <remote fetch="http://git.yoctoproject.org" name="yocto" alias="repo"/>
   
@@ -15,12 +15,12 @@
   <project name="meta-fsl-arm.git" path="stuff/meta-fsl-arm" remote="githf" revision="c9f259a4bf8472dfa3ff75f1c3fcbe5e0ded7aaf" upstream="fido"/>
   <project name="meta-fsl-demos.git" path="stuff/meta-fsl-demos" remote="githf" revision="17f9da65efb5c65c1d44b5cc18584034b29a742b" upstream="fido"/>
   <project name="meta-browser.git" path="stuff/meta-browser" remote="githo" revision="06aab8ea56aa130f26a3651fc3a370fba3d967f1" upstream="master"/>
-  <project name="bitbake" path="stuff/openembedded-core/bitbake" remote="oe" revision="a9e23e0066ea4dc16806ed3d269587ad1c895353" upstream="1.26"/>
+  <project name="bitbake.git" path="stuff/openembedded-core/bitbake" remote="oe" revision="a9e23e0066ea4dc16806ed3d269587ad1c895353" upstream="1.26"/>
   <project name="meta-linaro.git" path="stuff/meta-linaro" remote="linaro" revision="08a46787862966f2236c5a9b3eb4d4ec68263593" upstream="fido"/>
   <project name="meta-lxde.git" path="stuff/meta-lxde" remote="trdx" revision="dab628bb88504e72ef1ed2c47577c03934606ec4" upstream="fido"/>
-  <project name="meta-openembedded" path="stuff/meta-openembedded" remote="oe" revision="763de0599bd61eae1c122782b03e12b66319a2f1" upstream="fido"/>
+  <project name="meta-openembedded.git" path="stuff/meta-openembedded" remote="oe" revision="763de0599bd61eae1c122782b03e12b66319a2f1" upstream="fido"/>
   <project name="meta-toradex.git" path="stuff/meta-toradex" remote="trdx" revision="eca5937408c75a997b160bd1b92e1496b07421cf" upstream="V2.5">
     <copyfile dest="export" src="buildconf/export"/>
   </project>
-  <project name="openembedded-core" path="stuff/openembedded-core" remote="oe" revision="f0873b83d693af4a103999160d67fcf25c7eedc1" upstream="fido"/>
+  <project name="openembedded-core.git" path="stuff/openembedded-core" remote="oe" revision="f0873b83d693af4a103999160d67fcf25c7eedc1" upstream="fido"/>
 </manifest>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="http://github.com" name="gith"/>
-  <remote fetch="http://git.linaro.org/git-ro/openembedded" name="linaro"/>
-  <remote fetch="http://git.openembedded.org" name="oe"/>
-  <remote fetch="http://git.toradex.com" name="trdx"/>
-  <remote fetch="http://git.yoctoproject.org" name="yocto"/>
+  <remote fetch="http://github.com" name="gith" alias="repo"/>
+  <remote fetch="http://git.linaro.org/git-ro/openembedded" name="linaro" alias="repo"/>
+  <remote fetch="http://git.openembedded.org" name="oe" alias="repo"/>
+  <remote fetch="http://git.toradex.com" name="trdx" alias="repo"/>
+  <remote fetch="http://git.yoctoproject.org" name="yocto" alias="repo"/>
   
   <default sync-j="4"/>
   

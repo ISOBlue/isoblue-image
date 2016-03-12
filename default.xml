@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="http://github.com" name="gith" alias="repo"/>
+  <remote fetch="http://github.com/Angstrom-distribution" name="githa" alias="repo"/>
+  <remote fetch="http://github.com/Freescale" name="githf" alias="repo"/>
+  <remote fetch="http://github.com/OSSystems" name="githo" alias="repo"/>
   <remote fetch="http://git.linaro.org/git-ro/openembedded" name="linaro" alias="repo"/>
   <remote fetch="http://git.openembedded.org" name="oe" alias="repo"/>
   <remote fetch="http://git.toradex.com" name="trdx" alias="repo"/>
@@ -8,11 +10,11 @@
   
   <default sync-j="4"/>
   
-  <project name="Angstrom-distribution/meta-angstrom.git" path="stuff/meta-angstrom" remote="gith" revision="4a04eeaf3cbe5d0006ea552e78c43aefb095c40b" upstream="angstrom-v2015.06-yocto1.8"/>
-  <project name="Freescale/meta-fsl-arm-extra.git" path="stuff/meta-fsl-arm-extra" remote="gith" revision="41e79c6bd055f12b6252618c22c43a2fed5cfb49" upstream="fido"/>
-  <project name="Freescale/meta-fsl-arm.git" path="stuff/meta-fsl-arm" remote="gith" revision="c9f259a4bf8472dfa3ff75f1c3fcbe5e0ded7aaf" upstream="fido"/>
-  <project name="Freescale/meta-fsl-demos.git" path="stuff/meta-fsl-demos" remote="gith" revision="17f9da65efb5c65c1d44b5cc18584034b29a742b" upstream="fido"/>
-  <project name="OSSystems/meta-browser.git" path="stuff/meta-browser" remote="gith" revision="06aab8ea56aa130f26a3651fc3a370fba3d967f1" upstream="master"/>
+  <project name="meta-angstrom.git" path="stuff/meta-angstrom" remote="githa" revision="4a04eeaf3cbe5d0006ea552e78c43aefb095c40b" upstream="angstrom-v2015.06-yocto1.8"/>
+  <project name="meta-fsl-arm-extra.git" path="stuff/meta-fsl-arm-extra" remote="githf" revision="41e79c6bd055f12b6252618c22c43a2fed5cfb49" upstream="fido"/>
+  <project name="meta-fsl-arm.git" path="stuff/meta-fsl-arm" remote="githf" revision="c9f259a4bf8472dfa3ff75f1c3fcbe5e0ded7aaf" upstream="fido"/>
+  <project name="meta-fsl-demos.git" path="stuff/meta-fsl-demos" remote="githf" revision="17f9da65efb5c65c1d44b5cc18584034b29a742b" upstream="fido"/>
+  <project name="meta-browser.git" path="stuff/meta-browser" remote="githo" revision="06aab8ea56aa130f26a3651fc3a370fba3d967f1" upstream="master"/>
   <project name="bitbake" path="stuff/openembedded-core/bitbake" remote="oe" revision="a9e23e0066ea4dc16806ed3d269587ad1c895353" upstream="1.26"/>
   <project name="meta-linaro.git" path="stuff/meta-linaro" remote="linaro" revision="08a46787862966f2236c5a9b3eb4d4ec68263593" upstream="fido"/>
   <project name="meta-lxde.git" path="stuff/meta-lxde" remote="trdx" revision="dab628bb88504e72ef1ed2c47577c03934606ec4" upstream="fido"/>

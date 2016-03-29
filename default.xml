@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="http://github.com/Angstrom-distribution" name="githa" alias="repo"/>
-  <remote fetch="http://github.com/Freescale" name="githf" alias="repo"/>
-  <remote fetch="http://github.com/OSSystems" name="githo" alias="repo"/>
-  <remote fetch="http://github.com/meta-qt5" name="githq" alias="repo"/>
-  <remote fetch="http://git.linaro.org/git-ro/openembedded" name="linaro" alias="repo"/>
-  <remote fetch="http://github.com/openembedded" name="oe" alias="repo"/>
-  <remote fetch="http://git.toradex.com" name="trdx" alias="repo"/>
-  <remote fetch="http://git.yoctoproject.org" name="yocto" alias="repo"/>
+  <remote alias="repo" fetch="http://github.com/Angstrom-distribution" name="githa"/>
+  <remote alias="repo" fetch="http://github.com/Freescale" name="githf"/>
+  <remote alias="repo" fetch="http://github.com/OSSystems" name="githo"/>
+  <remote alias="repo" fetch="http://github.com/meta-qt5" name="githq"/>
+  <remote alias="repo" fetch="http://git.linaro.org/git-ro/openembedded" name="linaro"/>
+  <remote alias="repo" fetch="http://github.com/openembedded" name="oe"/>
+  <remote alias="repo" fetch="http://git.toradex.com" name="trdx"/>
+  <remote alias="repo" fetch="http://git.yoctoproject.org" name="yocto"/>
   
   <default sync-j="4"/>
   
-  <project name="meta-angstrom.git" path="stuff/meta-angstrom" remote="githa" revision="e74227e1758a1e115c83c2aef8bb11b88bb527dc" upstream="angstrom-v2015.12-yocto2.0"/>
-  <project name="meta-fsl-arm-extra.git" path="stuff/meta-fsl-arm-extra" remote="githf" revision="2fdd1f7729c11900126f6c73346b8ea89448e927" upstream="jethro"/>
-  <project name="meta-fsl-arm.git" path="stuff/meta-fsl-arm" remote="githf" revision="8d22b44716fa624ff87383c36d222d9e28d0b267" upstream="jethro"/>
-  <project name="meta-fsl-demos.git" path="stuff/meta-fsl-demos" remote="githf" revision="2231e946e7a94d096394f2b2477e8184c9bbde7b" upstream="jethro"/>
-  <project name="meta-browser.git" path="stuff/meta-browser" remote="githo" revision="e114d625d4bd23a52cc1108a45d96ffd8dc0ab7f" upstream="jethro"/>
-  <project name="meta-qt5.git" path="stuff/meta-qt5" remote="githq" revision="9bfcf79fcd824efb9f2a9bd72ecbedfee1315c96" upstream="jethro"/>
   <project name="bitbake.git" path="stuff/openembedded-core/bitbake" remote="oe" revision="0e9d8d63ddb35d181d4e470585d1e4a4c646cd00" upstream="1.28"/>
-  <project name="meta-linaro.git" path="stuff/meta-linaro" remote="linaro" revision="395ca11e22c26bd0c26ea1078722628ba6aa2332" upstream="jethro"/>
-  <project name="meta-lxde.git" path="stuff/meta-lxde" remote="trdx" revision="dab628bb88504e72ef1ed2c47577c03934606ec4" upstream="jethro"/>
-  <project name="meta-openembedded.git" path="stuff/meta-openembedded" remote="oe" revision="dc5634968b270dde250690609f0015f881db81f2" upstream="jethro"/>
-  <project name="meta-toradex.git" path="stuff/meta-toradex" remote="trdx" revision="6e7d6a97f6446bf161fcdbe1375ab63122d84b65" upstream="V2.6">
+  <project name="meta-angstrom.git" path="stuff/meta-angstrom" remote="githa" revision="85ac035eabb11d57467c58c18d9e5627a1f6fc9e" upstream="angstrom-v2015.12-yocto2.0"/>
+  <project name="meta-browser.git" path="stuff/meta-browser" remote="githo" revision="e114d625d4bd23a52cc1108a45d96ffd8dc0ab7f" upstream="jethro"/>
+  <project name="meta-fsl-arm-extra.git" path="stuff/meta-fsl-arm-extra" remote="githf" revision="7b1b30a2c8159b56103660903cd513bc1009cc21" upstream="jethro"/>
+  <project name="meta-fsl-arm.git" path="stuff/meta-fsl-arm" remote="githf" revision="aa2a6cee58743ca9f437ce3d552504d32519c8f1" upstream="jethro"/>
+  <project name="meta-fsl-demos.git" path="stuff/meta-fsl-demos" remote="githf" revision="8bffde8d803dd2362fbded79781ce084d723b048" upstream="jethro"/>
+  <project name="meta-linaro.git" path="stuff/meta-linaro" remote="linaro" revision="12993e6bc8658ee37d303d8d59007f8dd9ab2b30" upstream="jethro"/>
+  <project name="meta-lxde.git" path="stuff/meta-lxde" remote="trdx" revision="70bdda0a9d432d14dc5b858a168a33ac66695123" upstream="jethro"/>
+  <project name="meta-openembedded.git" path="stuff/meta-openembedded" remote="oe" revision="c305ac5d2f5285d5eec8952a4ca7f3b4f89aed96" upstream="jethro"/>
+  <project name="meta-qt5.git" path="stuff/meta-qt5" remote="githq" revision="9bfcf79fcd824efb9f2a9bd72ecbedfee1315c96" upstream="jethro"/>
+  <project name="meta-toradex.git" path="stuff/meta-toradex" remote="trdx" revision="c9d38a1f9441ebfa8de096beb8aa8c77bba64153" upstream="V2.6">
     <copyfile dest="export" src="buildconf/export"/>
   </project>
-  <project name="openembedded-core.git" path="stuff/openembedded-core" remote="oe" revision="4d0ebfd77c07475494665dde962137934dd2194a" upstream="jethro"/>
+  <project name="openembedded-core.git" path="stuff/openembedded-core" remote="oe" revision="4d879cb8d7384ac4a96f22c1664b8875f2d8f615" upstream="jethro"/>
 </manifest>

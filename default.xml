@@ -21,13 +21,13 @@
   <project name="meta-jetson-tk1.git" path="layers/meta-jetson-tk1" remote="githt" revision="0569d7a930506c185734097a58e1de219dc66c80" upstream="jethro"/>
   <project name="meta-linaro.git" path="layers/meta-linaro" remote="linaro" revision="9b1fd178309544dff1f7453e796a9437125bc0d9" upstream="jethro"/>
   <project name="meta-lxde.git" path="layers/meta-lxde" remote="trdx" revision="d097882e3859220e9ce0c99250e22f5833233c6e" upstream="jethro"/>
-  <project name="meta-openembedded.git" path="layers/meta-openembedded" remote="oe" revision="8ab04afbffb4bc5184cfe0655049de6f44269990" upstream="jethro"/>
+  <project name="meta-openembedded.git" path="layers/meta-openembedded" remote="oe" revision="2ea8d7f54a061e902657c4f8ea1f7f7c25c6c4e1" upstream="jethro"/>
   <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="a8d4dafdfde812e403315d53b2a981d12bd49f04" upstream="jethro-next"/>
   <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="trdx" revision="77b0c48863b6194628f2ff4c633469bb84f549c3" upstream="jethro"/>
-  <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="trdx" revision="bc692472e86eb646f0f5a78e9dd4fdc70356c50e" upstream="jethro">
+  <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="trdx" revision="a6c6fa422e9cf9586e0eb8aba40e0460513edf58" upstream="jethro">
     <copyfile dest="export" src="buildconf/export"/>
   </project>
-  <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="trdx" revision="b7fa1ed761c53c2737d8722efca6421607ecfa89" upstream="jethro"/>
-  <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="trdx" revision="8a8ea0510f3aba5f9a0949c986eb8639ff41917f" upstream="jethro"/>
-  <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="346b6ef31253789d7d6664a19297b6deec9d27a0" upstream="jethro"/>
+  <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="trdx" revision="18a87021f079a84171885c6e816fb8800ce3b974" upstream="jethro"/>
+  <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="trdx" revision="ebb0b6b7508efbcf1f57dc014d30f4414d56d5dc" upstream="jethro"/>
+  <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="d39e7ca717b67ad9f2f78b83d90d91e410e52965" upstream="jethro"/>
 </manifest>

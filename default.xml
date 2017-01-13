@@ -24,11 +24,11 @@
   <project name="meta-openembedded.git" path="layers/meta-openembedded" remote="oe" revision="1efa5d623bc64659b57389e50be2568b1355d5f7" upstream="morty"/>
   <project name="meta-qt4" path="layers/meta-qt4" remote="yocto" revision="2c7f8df9039be498f8a2232d1428adb7f4e5e800" upstream="morty"/>
   <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="9aa870eecf6dc7a87678393bd55b97e21033ab48" upstream="morty"/>
-  <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="trdx" revision="05faa6a4346eeb7631fe72bcbb9aa7d414bee791" upstream="morty-next"/>
-  <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="trdx" revision="9fa810182cbb085554ad3a596db6dbf1fc9a0a73" upstream="morty-next">
+  <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="trdx" revision="05faa6a4346eeb7631fe72bcbb9aa7d414bee791" upstream="morty"/>
+  <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="trdx" revision="9fa810182cbb085554ad3a596db6dbf1fc9a0a73" upstream="morty">
     <copyfile dest="export" src="buildconf/export"/>
   </project>
-  <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="trdx" revision="ee77ef53d35284bcacc77e849dd30a36fe263ef2" upstream="morty-next"/>
-  <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="trdx" revision="c411daec746975195f1590c727449adffb8587e0" upstream="morty-next"/>
+  <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="trdx" revision="ee77ef53d35284bcacc77e849dd30a36fe263ef2" upstream="morty"/>
+  <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="trdx" revision="c411daec746975195f1590c727449adffb8587e0" upstream="morty"/>
   <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="c8d96b10ee3bc2eae0fd269d2564286fd0bc82ed" upstream="morty"/>
 </manifest>

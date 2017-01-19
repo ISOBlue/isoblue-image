@@ -20,7 +20,7 @@
   <project name="meta-freescale.git" path="layers/meta-freescale" remote="githf" revision="6ec09e6a0f09d1cb9c3761b339590c0a0baeeeb3" upstream="morty"/>
   <project name="meta-jetson-tk1.git" path="layers/meta-jetson-tk1" remote="githt" revision="e8b87fe8da7c6fcffa37ab245f50082953cc1ee1" upstream="Morty"/>
   <project name="meta-linaro.git" path="layers/meta-linaro" remote="linaro" revision="407fe60740240b3115531cbed129f1e186bfbe3e" upstream="morty"/>
-  <project name="meta-lxde.git" path="layers/meta-lxde" remote="trdx" revision="cb926caf26762a68bb735fd8bd20843fdf1b0cfe" upstream="morty-next"/>
+  <project name="meta-lxde.git" path="layers/meta-lxde" remote="trdx" revision="92f007c5b9b6ab48433b2049c32fc26b056b9159" upstream="morty"/>
   <project name="meta-openembedded.git" path="layers/meta-openembedded" remote="oe" revision="1efa5d623bc64659b57389e50be2568b1355d5f7" upstream="morty"/>
   <project name="meta-qt4" path="layers/meta-qt4" remote="yocto" revision="2c7f8df9039be498f8a2232d1428adb7f4e5e800" upstream="morty"/>
   <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="9aa870eecf6dc7a87678393bd55b97e21033ab48" upstream="morty"/>

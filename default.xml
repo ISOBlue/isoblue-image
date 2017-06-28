@@ -4,6 +4,7 @@
   <remote alias="repo" fetch="http://github.com/Freescale" name="githf"/>
   <remote alias="repo" fetch="http://github.com/OSSystems" name="githo"/>
   <remote alias="repo" fetch="http://github.com/meta-qt5" name="githq"/>
+  <remote alias="repo" fetch="http://github.com/morphis" name="giths"/>
   <remote alias="repo" fetch="http://github.com/watatuki" name="githt"/>
   <remote alias="repo" fetch="http://git.linaro.org/git-ro/openembedded" name="linaro"/>
   <remote alias="repo" fetch="http://github.com/openembedded" name="oe"/>
@@ -24,6 +25,7 @@
   <project name="meta-openembedded.git" path="layers/meta-openembedded" remote="oe" revision="fe5c83312de11e80b85680ef237f8acb04b4b26e" upstream="morty"/>
   <project name="meta-qt4" path="layers/meta-qt4" remote="yocto" revision="2c7f8df9039be498f8a2232d1428adb7f4e5e800" upstream="morty"/>
   <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="3601fd2c5306ac6d5d0d536e0be8cbb90da9b4c1" upstream="morty"/>
+  <project name="meta-snappy.git" path="layers/meta-snappy" remote="giths" revision="f6df6a63756d9976bcccb5fefdbc64e5cc794c99" upstream="master"/>
   <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="554adccf11f2ba2947ed221307ddd703c0889967" upstream="morty"/>
   <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="298a87246b9ea2480520d3f698aaaedbc490c8b8" upstream="morty">
     <copyfile dest="export" src="buildconf/export"/>

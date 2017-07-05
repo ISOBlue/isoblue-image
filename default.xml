@@ -27,7 +27,7 @@
   <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="3601fd2c5306ac6d5d0d536e0be8cbb90da9b4c1" upstream="morty"/>
   <project name="meta-snappy.git" path="layers/meta-snappy" remote="giths" revision="f6df6a63756d9976bcccb5fefdbc64e5cc794c99" upstream="master"/>
   <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="b128af95613557af8deaea30212e89e6316eab88" upstream="morty"/>
-  <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="94f30a16f0545f4bf23f433db37deeef11379e20" upstream="morty">
+  <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="9776575a1a4b243f3a80de22bd16ea6a9525912d" upstream="morty">
     <copyfile dest="export" src="buildconf/export"/>
   </project>
   <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="tdx" revision="89a17628efef01fd5af202e88d79188df08f636f" upstream="morty"/>

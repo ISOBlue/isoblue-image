@@ -32,5 +32,5 @@
   </project>
   <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="tdx" revision="morty-next"/>
   <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="tdx" revision="morty-next"/>
-  <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="56eae27b3a7bd938d6959e5b671fc48ea2ab80c7" upstream="morty-next"/>
+  <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="b835e9bf9da6ebc8fd5728b4587470e9a57d5966" upstream="morty-next"/>
 </manifest>

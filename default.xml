@@ -31,6 +31,6 @@
     <copyfile dest="export" src="buildconf/export"/>
   </project>
   <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="tdx" revision="45c33b79a734d016dddb997c1895b53202286f23" upstream="morty"/>
-  <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="tdx" revision="942eeb98172f74e9fbf8f6053cf241e3fb98110b" upstream="morty"/>
+  <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="tdx" revision="2f4391e3f7e3aaaed1961d5798af5b08c08d8322" upstream="morty"/>
   <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="b835e9bf9da6ebc8fd5728b4587470e9a57d5966" upstream="morty"/>
 </manifest>

@@ -13,24 +13,24 @@
   
   <default sync-j="4"/>
   
-  <project name="bitbake.git" path="layers/openembedded-core/bitbake" remote="oe" revision="32a249cf33f79b579a2cf6224c7d23cdb20d376f" upstream="1.32"/>
+  <project name="bitbake.git" path="layers/openembedded-core/bitbake" remote="oe" revision="991b533f1d61042a7b3edd1fbf3dea0bf9991606" upstream="1.32"/>
   <project name="meta-angstrom.git" path="layers/meta-angstrom" remote="githa" revision="9625910bb4bb48b3f4d87a1e9ff3576d40bd656a" upstream="angstrom-v2016.12-yocto2.2"/>
   <project name="meta-browser.git" path="layers/meta-browser" remote="githo" revision="1569eeb9cc1b87632abbf35fbb05f4ac4eeb3987" upstream="morty"/>
-  <project name="meta-freescale-3rdparty.git" path="layers/meta-freescale-3rdparty" remote="githf" revision="1879485e63ce369292c89b5902ff6df13509090b" upstream="morty"/>
+  <project name="meta-freescale-3rdparty.git" path="layers/meta-freescale-3rdparty" remote="githf" revision="e55167c3c2770c07a475342f99cc2a3a23fbfa0c" upstream="morty"/>
   <project name="meta-freescale-distro.git" path="layers/meta-freescale-distro" remote="githf" revision="cd5c7a2539f40004f74126e9fdf08254fd9a6390" upstream="morty"/>
   <project name="meta-freescale.git" path="layers/meta-freescale" remote="githf" revision="05681fdf8298bb441c15135eae424c7601b07e98" upstream="morty"/>
   <project name="meta-jetson-tk1.git" path="layers/meta-jetson-tk1" remote="githt" revision="e8b87fe8da7c6fcffa37ab245f50082953cc1ee1" upstream="Morty"/>
-  <project name="meta-linaro.git" path="layers/meta-linaro" remote="linaro" revision="49b0f32d7e955f250b0022d1b2f403f45a2c2d9c" upstream="morty"/>
+  <project name="meta-linaro.git" path="layers/meta-linaro" remote="linaro" revision="5d2cb685217794293ea2bab18d7e62019c329d06" upstream="morty"/>
   <project name="meta-lxde.git" path="layers/meta-lxde" remote="tdx" revision="1bd36a4d0f7e1e9fdea9c4c991188bc1dc9da421" upstream="morty"/>
   <project name="meta-openembedded.git" path="layers/meta-openembedded" remote="oe" revision="b40116cf457b88a2db14b86fda9627fb34d56ae6" upstream="morty"/>
   <project name="meta-qt4" path="layers/meta-qt4" remote="yocto" revision="f389368dc86e745df14cab9eeb9a94bc02bd273e" upstream="morty"/>
   <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="2c9f0e4eb0e9097f6f872ec1e1d81768a8ab5f1b" upstream="morty"/>
   <project name="meta-snappy.git" path="layers/meta-snappy" remote="giths" revision="f6df6a63756d9976bcccb5fefdbc64e5cc794c99" upstream="master"/>
-  <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="429d294f9b271433d4d0130530677dc417e6ec6e" upstream="morty"/>
-  <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="d4107c7913695e59ec41401ae9036946e348f5fe" upstream="morty">
+  <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="e6641b0a6f93ebf752534b283d0dfb0c2c656ec2" upstream="morty"/>
+  <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="a08f1a3164e9ce16fca09f1f1c016b81eb1fcfaa" upstream="morty">
     <copyfile dest="export" src="buildconf/export"/>
   </project>
-  <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="tdx" revision="45c33b79a734d016dddb997c1895b53202286f23" upstream="morty"/>
-  <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="tdx" revision="2f4391e3f7e3aaaed1961d5798af5b08c08d8322" upstream="morty"/>
-  <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="b835e9bf9da6ebc8fd5728b4587470e9a57d5966" upstream="morty"/>
+  <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="tdx" revision="c4f34b34bf34f44b974a7add623cafff17d880ad" upstream="morty"/>
+  <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="tdx" revision="8deaad62384fbe4f4079f62bb7fdfa70ef199236" upstream="morty"/>
+  <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="93b7f83a4212409a55ddf568a34468d4f6ef2c06" upstream="morty"/>
 </manifest>

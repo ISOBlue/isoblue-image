@@ -13,7 +13,7 @@
   <default sync-j="4"/>
   
   <project name="bitbake.git" path="layers/openembedded-core/bitbake" remote="oe" revision="686a230d48ca666bdc0b0565f8e55cc890b90c5f" upstream="1.36"/>
-  <project name="meta-angstrom.git" path="layers/meta-angstrom" remote="githa" revision="9625910bb4bb48b3f4d87a1e9ff3576d40bd656a" upstream="angstrom-v2016.12-yocto2.2"/>
+  <project name="meta-angstrom.git" path="layers/meta-angstrom" remote="githa" revision="2a246b9f26126a662caef79a99845ff8379145b9" upstream="angstrom-v2017.12-rocko"/>
   <project name="meta-browser.git" path="layers/meta-browser" remote="githo" revision="8cc24caa56f254e09ccb2311b59d054d1f016014" upstream="master"/>
   <project name="meta-freescale-3rdparty.git" path="layers/meta-freescale-3rdparty" remote="githf" revision="37c79046d13d10ab16561dddc764c0164ee5deaa" upstream="rocko"/>
   <project name="meta-freescale-distro.git" path="layers/meta-freescale-distro" remote="githf" revision="3f958b6a9a4c4120f241e431fec8e5ba616fcc73" upstream="rocko"/>

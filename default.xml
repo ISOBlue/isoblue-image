@@ -4,6 +4,7 @@
   <remote alias="repo" fetch="http://github.com/Freescale" name="githf"/>
   <remote alias="repo" fetch="http://github.com/OSSystems" name="githo"/>
   <remote alias="repo" fetch="http://github.com/meta-qt5" name="githq"/>
+  <remote alias="repo" fetch="http://github.com/schnitzeltony" name="githe"/>
   <remote alias="repo" fetch="http://github.com/morphis" name="giths"/>
   <remote alias="repo" fetch="http://github.com/watatuki" name="githt"/>
   <remote alias="repo" fetch="http://github.com/openembedded" name="oe"/>
@@ -23,6 +24,7 @@
   <project name="meta-openembedded.git" path="layers/meta-openembedded" remote="oe" revision="6e3fc5b8d904d06e3aa77e9ec9968ab37a798188" upstream="rocko"/>
   <project name="meta-qt4" path="layers/meta-qt4" remote="yocto" revision="f313dbee2ac3d5fcc9801407947d3cb6cfb90b5d" upstream="rocko"/>
   <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="d87335a50a9dd35d890786edbd79b8953fdaa11a" upstream="rocko"/>
+  <project name="meta-qt5-extra.git" path="layers/meta-qt5-extra" remote="githe" revision="ed310ccf25124800e49ab32fad662eaa90bc261f" upstream="master"/>
   <project name="meta-snappy.git" path="layers/meta-snappy" remote="giths" revision="a0432dcff49e35af9175c5bdd57d6b5871062ecf" upstream="pyro"/>
   <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="eb87aec937ab520da8162c89e69d33faf9bc29a2" upstream="rocko"/>
   <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="51cb154f4219a918590994bcbe0e14f9545120cc" upstream="rocko">

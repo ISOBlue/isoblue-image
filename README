@@ -1,7 +1,9 @@
+commid: c37049473ff0427cad12656d098188220bfcd9fb
+
 Toradex oe-core Setup
 =====================
 
-To simplify installation we provide a repo manifest which manages the different git repositories 
+To simplify installation we provide a repo manifest which manages the different git repositories
 and the used versions. (more on repo: http://code.google.com/p/git-repo/ )
 
 Install the repo bootstrap binary:
@@ -22,13 +24,13 @@ Optionally create a development branch in all git repositories
 
   repo start mybranch --all
 
-Source the file export to setup the environment. On first invocation this also copies a sample 
+Source the file export to setup the environment. On first invocation this also copies a sample
 configuration to build/conf/*.conf.
 
   . export
 
-Adapt build/conf/local.conf to your needs. At least check the variables BB_NUMBER_THREADS, 
-PARALLEL_MAKE, and MACHINE. Set MACHINE to a preferred value and when you need a different 
+Adapt build/conf/local.conf to your needs. At least check the variables BB_NUMBER_THREADS,
+PARALLEL_MAKE, and MACHINE. Set MACHINE to a preferred value and when you need a different
 one override it from the command line.
 
 For Toradex modules the following machines exist:

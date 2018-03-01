@@ -32,8 +32,8 @@
   <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="tdx" revision="d351e11b76c004afbf0f37d5481266bafdb015ee" upstream="morty"/>
   <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="tdx" revision="fecccd7ebf62b8da88569d229b5c7bb3938aaa76" upstream="morty"/>
   <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="ddf907ca95a19f54785079b4396935273b3747f6" upstream="morty"/>
-  <project name="meta-isoblue.git" path="layers/meta-isoblue" remote="ib" revision="71cfa70ecd23d01e3eaa799797e112ed5824658b"/>
-  <project name="meta-isoblue-demos.git" path="layers/meta-isoblue-demos" remote="ib" revision="f2db9f73aa2de021d77fde997a33f71c1aea9f80">
+  <project name="meta-isoblue" path="layers/meta-isoblue" remote="ib" revision="71cfa70ecd23d01e3eaa799797e112ed5824658b"/>
+  <project name="meta-isoblue-demos" path="layers/meta-isoblue-demos" remote="ib" revision="f2db9f73aa2de021d77fde997a33f71c1aea9f80">
     <copyfile dest="isoblue.conf" src="buildconf/isoblue.conf"/>
   </project>
 </manifest>

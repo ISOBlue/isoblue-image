@@ -32,7 +32,7 @@
   <project name="meta-toradex-nxp" path="layers/meta-toradex-nxp" remote="ib" revision="c37ada0d86cacd970212b0d27745ce7e009494e5"/>
   <project name="meta-oracle-java" path="layers/meta-oracle-java" remote="ib" revision="e83921cfbc8aadd1ae96cf8add5d168731775fee"/>
   <project name="meta-isoblue" path="layers/meta-isoblue" remote="ib" revision="41961e0ad1362d4175c1314e3b2b6dbfc8549713"/>
-  <project name="meta-isoblue-demos" path="layers/meta-isoblue-demos" remote="ib" revision="f47931d2bab8495747790fcffcf3ac877bb00a37">
+  <project name="meta-isoblue-demos" path="layers/meta-isoblue-demos" remote="ib" revision="dd9edaf7845d71851803b1aaea3c35517a0beeb7">
       <copyfile dest="isoblue.conf" src="buildconf/isoblue.conf"/>
       <copyfile dest="export" src="buildconf/export"/>
   </project>

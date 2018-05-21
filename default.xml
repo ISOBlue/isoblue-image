@@ -12,7 +12,7 @@
   <remote alias="repo" fetch="https://github.com/ISOBlue" name="ib"/>
 
   <default sync-j="4"/>
-  
+
   <project name="bitbake.git" path="layers/openembedded-core/bitbake" remote="oe" revision="223a0f68530571d2280f526bddbc718fa803a3dc" upstream="1.36"/>
   <project name="meta-angstrom.git" path="layers/meta-angstrom" remote="githa" revision="3eafb0073465e4808769e7a8ed9d90c83d665868" upstream="angstrom-v2017.12-rocko"/>
   <project name="meta-browser.git" path="layers/meta-browser" remote="githo" revision="cf35eca0de52d5a34dabe2068e68348367db8e55" upstream="master"/>
@@ -29,10 +29,10 @@
   <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="be55978f6c2d87168ae46c0b4fa3bac2235e4ec1" upstream="rocko"/>
   <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="tdx" revision="6eef839219a2da4c579fd9faf051ebe184d4b32a" upstream="rocko"/>
   <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="b042347ee8cdbd2dfb0c2f616a94c4cca4b0ecd1" upstream="rocko"/>
-  <project name="meta-toradex-nxp" path="layers/meta-toradex-nxp" remote="ib" revision="c37ada0d86cacd970212b0d27745ce7e009494e5"/>
+  <project name="meta-toradex-nxp" path="layers/meta-toradex-nxp" remote="ib" revision="11782a79c70708ad852ea6c54fcbfc6d40b2c9e6"/>
   <project name="meta-oracle-java" path="layers/meta-oracle-java" remote="ib" revision="f5038025924e7e5b4f58d7ff9d67a58b8f377209"/>
   <project name="meta-isoblue" path="layers/meta-isoblue" remote="ib" revision="d09f0d39028d8e223b1d4e060c4efbf8aaf16b4a"/>
-  <project name="meta-isoblue-demos" path="layers/meta-isoblue-demos" remote="ib" revision="9c910106d336648b29a707829aa375766a5f77f3">
+  <project name="meta-isoblue-demos" path="layers/meta-isoblue-demos" remote="ib" revision="f2637ba14754abdf4484df33e9494f298fb51e86">
       <copyfile dest="isoblue.conf" src="buildconf/isoblue.conf"/>
       <copyfile dest="export" src="buildconf/export"/>
   </project>

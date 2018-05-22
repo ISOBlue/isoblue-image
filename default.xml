@@ -26,13 +26,11 @@
   <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="32bb7d18a08d1c48873d7ab6332d4cc3815a4dff" upstream="rocko"/>
   <project name="meta-qt5-extra.git" path="layers/meta-qt5-extra" remote="githe" revision="b5bde85b0144877a746656b4567240d68c6c1980" upstream="master"/>
   <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="78612101254076847875278a3f24afa1966dfea0" upstream="rocko"/>
-  <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="be55978f6c2d87168ae46c0b4fa3bac2235e4ec1" upstream="rocko"/>
-  <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="tdx" revision="6eef839219a2da4c579fd9faf051ebe184d4b32a" upstream="rocko"/>
   <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="b042347ee8cdbd2dfb0c2f616a94c4cca4b0ecd1" upstream="rocko"/>
-  <project name="meta-toradex-nxp" path="layers/meta-toradex-nxp" remote="ib" revision="7c8d15fe7811e1b69be0cbfb03d3cb7aac38a006"/>
+  <project name="meta-toradex-nxp" path="layers/meta-toradex-nxp" remote="ib" revision="8b3fd507aeea689b541f160174bc1214af8004a6"/>
   <project name="meta-oracle-java" path="layers/meta-oracle-java" remote="ib" revision="f5038025924e7e5b4f58d7ff9d67a58b8f377209"/>
   <project name="meta-isoblue" path="layers/meta-isoblue" remote="ib" revision="ba9986838611462a657f77dc3d105d1c0d7236d3"/>
-  <project name="meta-isoblue-demos" path="layers/meta-isoblue-demos" remote="ib" revision="455d3cb6224302f29a8a5db3d0b90f34e07edb9b">
+  <project name="meta-isoblue-demos" path="layers/meta-isoblue-demos" remote="ib" revision="a51d944181d8a525bd053e8c824a8d1386cfc4d4">
       <copyfile dest="isoblue.conf" src="buildconf/isoblue.conf"/>
       <copyfile dest="export" src="buildconf/export"/>
   </project>

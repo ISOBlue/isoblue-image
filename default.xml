@@ -12,23 +12,23 @@
   
   <default sync-j="4"/>
   
-  <project name="bitbake.git" path="layers/openembedded-core/bitbake" remote="oe" revision="223a0f68530571d2280f526bddbc718fa803a3dc" upstream="1.36"/>
+  <project name="bitbake.git" path="layers/openembedded-core/bitbake" remote="oe" revision="5b26fc8e332daaed092cdbafea3f0b8e11e5e7ae" upstream="1.36"/>
   <project name="meta-angstrom.git" path="layers/meta-angstrom" remote="githa" revision="3eafb0073465e4808769e7a8ed9d90c83d665868" upstream="angstrom-v2017.12-rocko"/>
-  <project name="meta-browser.git" path="layers/meta-browser" remote="githo" revision="cf35eca0de52d5a34dabe2068e68348367db8e55" upstream="master"/>
-  <project name="meta-freescale-3rdparty.git" path="layers/meta-freescale-3rdparty" remote="githf" revision="1d6d5961dbf82624b28bb318b4950a64abc31d12" upstream="rocko"/>
-  <project name="meta-freescale-distro.git" path="layers/meta-freescale-distro" remote="githf" revision="0ec6d7e206705702b5b534611754de0787f92b72" upstream="rocko"/>
-  <project name="meta-freescale.git" path="layers/meta-freescale" remote="githf" revision="49ac225a38f6d84519798e3264f2e4d19b84f70a" upstream="rocko"/>
+  <project name="meta-browser.git" path="layers/meta-browser" remote="githo" revision="1cd38d701a49eade80a04140f70d3383117b9745" upstream="master"/>
+  <project name="meta-freescale-3rdparty.git" path="layers/meta-freescale-3rdparty" remote="githf" revision="a02324e27f7a7ac630dab616f46a8bad7fe2c071" upstream="rocko"/>
+  <project name="meta-freescale-distro.git" path="layers/meta-freescale-distro" remote="githf" revision="51756d1c2058139c8a21f89b86cfd8007b71b7f0" upstream="rocko"/>
+  <project name="meta-freescale.git" path="layers/meta-freescale" remote="githf" revision="15f14f7eb30dde0488a04fbca6a2ac997eeace30" upstream="rocko"/>
   <project name="meta-jetson-tk1.git" path="layers/meta-jetson-tk1" remote="githt" revision="e8b87fe8da7c6fcffa37ab245f50082953cc1ee1" upstream="Morty"/>
   <project name="meta-lxde.git" path="layers/meta-lxde" remote="tdx" revision="dbcbbfd9539a9a017bb6c9b7fd67c3ca22c4cacf" upstream="rocko"/>
-  <project name="meta-openembedded.git" path="layers/meta-openembedded" remote="oe" revision="dacfa2b1920e285531bec55cd2f08743390aaf57" upstream="rocko"/>
-  <project name="meta-qt4" path="layers/meta-qt4" remote="yocto" revision="f313dbee2ac3d5fcc9801407947d3cb6cfb90b5d" upstream="rocko"/>
-  <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="32bb7d18a08d1c48873d7ab6332d4cc3815a4dff" upstream="rocko"/>
-  <project name="meta-qt5-extra.git" path="layers/meta-qt5-extra" remote="githe" revision="b5bde85b0144877a746656b4567240d68c6c1980" upstream="rocko"/>
+  <project name="meta-openembedded.git" path="layers/meta-openembedded" remote="oe" revision="352531015014d1957d6444d114f4451e241c4d23" upstream="rocko"/>
+  <project name="meta-qt4" path="layers/meta-qt4" remote="yocto" revision="e290738759ef3f39c9e079eaa9b606a62107e5ba" upstream="rocko"/>
+  <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="682ad61c071a9710e9f9d8a32ab1b5f3c14953d1" upstream="rocko"/>
+  <project name="meta-qt5-extra.git" path="layers/meta-qt5-extra" remote="githe" revision="79e26686520f2ce5f743975e90116b263a33697f" upstream="rocko"/>
   <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="78612101254076847875278a3f24afa1966dfea0" upstream="rocko"/>
   <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="aa265d1c86597e479629734145b638b51117ef02" upstream="rocko">
     <copyfile dest="export" src="buildconf/export"/>
   </project>
   <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="tdx" revision="529a2981915e52cd6a9f4772af65ac225d29f754" upstream="rocko"/>
   <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="tdx" revision="83d29c9dde04d0c8f2460831a6b22bce6579a72e" upstream="rocko"/>
-  <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="b042347ee8cdbd2dfb0c2f616a94c4cca4b0ecd1" upstream="rocko"/>
+  <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="6c20c550a82aed9e8fa312f09888c8f16250159c" upstream="rocko"/>
 </manifest>

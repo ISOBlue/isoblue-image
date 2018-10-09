@@ -19,15 +19,16 @@
   <project name="meta-freescale-distro.git" path="layers/meta-freescale-distro" remote="githf" revision="51756d1c2058139c8a21f89b86cfd8007b71b7f0" upstream="rocko"/>
   <project name="meta-freescale.git" path="layers/meta-freescale" remote="githf" revision="61ab34ac6d664a229847b796ec20fd9f7c8ecbf4" upstream="rocko"/>
   <project name="meta-jetson-tk1.git" path="layers/meta-jetson-tk1" remote="githt" revision="e8b87fe8da7c6fcffa37ab245f50082953cc1ee1" upstream="Morty"/>
-  <project name="meta-lxde.git" path="layers/meta-lxde" remote="tdx" revision="8b0f254b6afa8df1daa240905ffbafd7c794c0ef" upstream="rocko-next"/>
+  <project name="meta-lxde.git" path="layers/meta-lxde" remote="tdx" revision="4feff01c0394decd78094bad11ef2f86a5d54214" upstream="rocko"/>
   <project name="meta-openembedded.git" path="layers/meta-openembedded" remote="oe" revision="eae996301d9c097bcbeb8046f08041dc82bb62f8" upstream="rocko"/>
   <project name="meta-qt4" path="layers/meta-qt4" remote="yocto" revision="e290738759ef3f39c9e079eaa9b606a62107e5ba" upstream="rocko"/>
   <project name="meta-qt5-extra.git" path="layers/meta-qt5-extra" remote="githe" revision="79e26686520f2ce5f743975e90116b263a33697f" upstream="rocko"/>
-  <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="3e713eef6e056c955b82adaf4b45286a98c3fcdf" upstream="rocko-next"/>
-  <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="32e07d09ac0279d0c50b6801e26e6d0be776207c" upstream="rocko-next">
+  <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="682ad61c071a9710e9f9d8a32ab1b5f3c14953d1" upstream="rocko"/>
+  <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="4f10295f39d3b2216fdc9d69967a34e3d7b48b2c" upstream="rocko"/>
+  <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="4dd2f81c4f0337f8e4b0fc915ad94feba514789e" upstream="rocko">
     <copyfile dest="export" src="buildconf/export"/>
   </project>
-  <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="tdx" revision="656677f4a68e6747971a4a30550cd72c3beb6a76" upstream="rocko-next"/>
-  <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="tdx" revision="15885b9b98aff0658f962f1c61352286b0749288" upstream="rocko-next"/>
+  <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="tdx" revision="4793c6737d73134a2e73da466e823ca65f53f969" upstream="rocko"/>
+  <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="tdx" revision="d7b2e3daf86a632ab92bb43eaa697a4c6b70ddae" upstream="rocko"/>
   <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="f6f54155420ae54a34f1ab87e76623c536adf2f9" upstream="rocko"/>
 </manifest>

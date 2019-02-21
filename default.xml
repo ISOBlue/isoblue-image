@@ -26,9 +26,6 @@
   <project name="meta-qt5-extra.git" path="layers/meta-qt5-extra" remote="githe" revision="79e26686520f2ce5f743975e90116b263a33697f" upstream="rocko"/>
   <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="d8b531530fa42b59aa0a5b123d87a30d749cbcc4" upstream="rocko"/>
   <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="b3fe56eec075ccd719b0ec1fde32ad9c37f0cca0" upstream="rocko"/>
-  <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="ca638002516c82fb3a1e22f0f1b8349584021a2b" upstream="rocko">
-    <copyfile dest="export" src="buildconf/export"/>
-  </project>
   <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="tdx" revision="9f4378d25ccdae1eaab77c5e72c983fbe1de4e8c" upstream="rocko"/>
   <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="3638cb32ba9ba32b4d498fc31ab7fdf82f0d2495" upstream="rocko"/>
   <project name="meta-oracle-java" path="layers/meta-oracle-java" remote="ib" revision="f5038025924e7e5b4f58d7ff9d67a58b8f377209"/>

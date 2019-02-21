@@ -9,9 +9,9 @@
   <remote alias="repo" fetch="https://github.com/watatuki" name="githt"/>
   <remote alias="repo" fetch="https://git.toradex.com" name="tdx"/>
   <remote alias="repo" fetch="https://git.yoctoproject.org/git" name="yocto"/>
-  
+
   <default sync-j="4"/>
-  
+
   <project name="bitbake.git" path="layers/openembedded-core/bitbake" remote="oe" revision="2e4845c526117d5524cff910afbb6f8212a3e199" upstream="1.36"/>
   <project name="meta-angstrom.git" path="layers/meta-angstrom" remote="githa" revision="4318892e08ea9102d29bdd92af83539bea985e4b" upstream="angstrom-v2017.12-rocko"/>
   <project name="meta-browser.git" path="layers/meta-browser" remote="githo" revision="75640e14e325479c076b6272b646be7a239c18aa" upstream="master"/>
@@ -32,9 +32,9 @@
   <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="tdx" revision="9f4378d25ccdae1eaab77c5e72c983fbe1de4e8c" upstream="rocko"/>
   <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="3638cb32ba9ba32b4d498fc31ab7fdf82f0d2495" upstream="rocko"/>
   <project name="meta-oracle-java" path="layers/meta-oracle-java" remote="ib" revision="f5038025924e7e5b4f58d7ff9d67a58b8f377209"/>
-  <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="ib" revision="c03caae8110812938fd45e18cfa72811a6eca9ac"/>
-  <project name="meta-isoblue" path="layers/meta-isoblue" remote="ib" revision="83c7c2f6014f2ae545762db0a09baa996f0b7575"/>
-  <project name="meta-isoblue-demos" path="layers/meta-isoblue-demos" remote="ib" revision="5a6ebab90bc4111842915c91e1e336d696bd1427">
+  <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="ib" revision="6a21f5693e2f327df46a4fa0ececb1e92fba0748"/>
+  <project name="meta-isoblue" path="layers/meta-isoblue" remote="ib" revision="223d18933c9fb373aff7f540eb58138e3bd044d4"/>
+  <project name="meta-isoblue-demos" path="layers/meta-isoblue-demos" remote="ib" revision="098adda71865d8505cbde3dbc3d4dacb710cb9e5">
       <copyfile dest="isoblue.conf" src="buildconf/isoblue.conf"/>
       <copyfile dest="export" src="buildconf/export"/>
 </manifest>

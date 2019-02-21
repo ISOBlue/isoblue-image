@@ -37,4 +37,5 @@
   <project name="meta-isoblue-demos" path="layers/meta-isoblue-demos" remote="ib" revision="098adda71865d8505cbde3dbc3d4dacb710cb9e5">
       <copyfile dest="isoblue.conf" src="buildconf/isoblue.conf"/>
       <copyfile dest="export" src="buildconf/export"/>
+  </project>
 </manifest>

@@ -10,6 +10,7 @@
   <remote alias="repo" fetch="http://github.com/openembedded" name="oe"/>
   <remote alias="repo" fetch="http://git.toradex.com" name="tdx"/>
   <remote alias="repo" fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote alias="repo" fetch="https://github.com/ISOBlue" name="ib"/>
 
   <default sync-j="4"/>
 

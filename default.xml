@@ -31,8 +31,8 @@
   <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="tdx" revision="942eeb98172f74e9fbf8f6053cf241e3fb98110b" upstream="morty"/>
   <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="b835e9bf9da6ebc8fd5728b4587470e9a57d5966" upstream="morty"/>
   <project name="meta-oracle-java" path="layers/meta-oracle-java" remote="ib" revision="f5038025924e7e5b4f58d7ff9d67a58b8f377209"/>
-  <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="ib" revision="45c33b79a734d016dddb997c1895b53202286f23"/>
-  <project name="meta-isoblue" path="layers/meta-isoblue" remote="ib" revision="223d18933c9fb373aff7f540eb58138e3bd044d4"/>
+  <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="ib" revision="30f32b728315b416777b0cc6424a22b8b0236d6f"/>
+  <project name="meta-isoblue" path="layers/meta-isoblue" remote="ib" revision="e62627f8013df75a229988356dac5b0069defd57"/>
   <project name="meta-isoblue-demos" path="layers/meta-isoblue-demos" remote="ib" revision="8b74a1b643dfacf2ebf8295b35f8fdc037579328">
       <copyfile dest="isoblue.conf" src="buildconf/isoblue.conf"/>
       <copyfile dest="export" src="buildconf/export"/>

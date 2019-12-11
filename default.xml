@@ -32,9 +32,9 @@
   <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="tdx" revision="942eeb98172f74e9fbf8f6053cf241e3fb98110b" upstream="morty"/>
   <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="b835e9bf9da6ebc8fd5728b4587470e9a57d5966" upstream="morty"/>
   <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="ib" revision="2e55ead526614b39fe7b7862d06002a333feb3d2"/>
-  <project name="meta-nodejs" path="layers/meta-nodejs" remote="node" revision="eec531e97a17bfd406f3bf76dee4057dcf5286a4"/> -->
-  <project name="meta-isoblue" path="layers/meta-isoblue" remote="ib" revision="fb4fdfa9a7623c9fe4823ba625d15898dea5bd00"/>
-  <project name="meta-isoblue-demos" path="layers/meta-isoblue-demos" remote="ib" revision="e6b2a25c7ef28bf9fe9d0376862be1aa261eed4e">
+  <project name="meta-nodejs" path="layers/meta-nodejs" remote="node" revision="eec531e97a17bfd406f3bf76dee4057dcf5286a4"/>
+  <project name="meta-isoblue" path="layers/meta-isoblue" remote="ib" revision="4eaa88b43dee208a2bfcb8d3604482ed8a71cd4d"/>
+  <project name="meta-isoblue-demos" path="layers/meta-isoblue-demos" remote="ib" revision="85e7f0c93f033adf84160cd0607a47cddc3fad8c">
       <copyfile dest="isoblue.conf" src="buildconf/isoblue.conf"/>
       <copyfile dest="export" src="buildconf/export"/>
   </project>

@@ -26,7 +26,6 @@
   <project name="meta-qt5-extra.git" path="layers/meta-qt5-extra" remote="githe" revision="79e26686520f2ce5f743975e90116b263a33697f" upstream="rocko"/>
   <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="d8b531530fa42b59aa0a5b123d87a30d749cbcc4" upstream="rocko"/>
   <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="78e1cdabe0baeb794945bd4926c28058f9f12aa9" upstream="rocko"/>
-  <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="tdx" revision="a5f5d85e52717e136e692478fb5d822c1ce70046" upstream="rocko"/>
   <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="tdx" revision="c10c7168712fa47e50440a7b7b012118939a3371" upstream="rocko"/>
   <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="3638cb32ba9ba32b4d498fc31ab7fdf82f0d2495" upstream="rocko"/>
 

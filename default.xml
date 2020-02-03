@@ -12,7 +12,7 @@
   <remote alias="repo" fetch="https://github.com/ISOBlue" name="ib"/>
 
   <default sync-j="4"/>
-  
+
   <project name="bitbake.git" path="layers/openembedded-core/bitbake" remote="oe" revision="2e4845c526117d5524cff910afbb6f8212a3e199" upstream="1.36"/>
   <project name="meta-angstrom.git" path="layers/meta-angstrom" remote="githa" revision="4318892e08ea9102d29bdd92af83539bea985e4b" upstream="angstrom-v2017.12-rocko"/>
   <project name="meta-browser.git" path="layers/meta-browser" remote="githo" revision="75640e14e325479c076b6272b646be7a239c18aa" upstream="master"/>
@@ -26,10 +26,15 @@
   <project name="meta-qt5-extra.git" path="layers/meta-qt5-extra" remote="githe" revision="79e26686520f2ce5f743975e90116b263a33697f" upstream="rocko"/>
   <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="d8b531530fa42b59aa0a5b123d87a30d749cbcc4" upstream="rocko"/>
   <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="78e1cdabe0baeb794945bd4926c28058f9f12aa9" upstream="rocko"/>
-  <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="014344d116f7c17c10be35d0d2a66a0038df6c75" upstream="rocko">
-    <copyfile dest="export" src="buildconf/export"/>
-  </project>
   <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="tdx" revision="a5f5d85e52717e136e692478fb5d822c1ce70046" upstream="rocko"/>
   <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="tdx" revision="c10c7168712fa47e50440a7b7b012118939a3371" upstream="rocko"/>
   <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="3638cb32ba9ba32b4d498fc31ab7fdf82f0d2495" upstream="rocko"/>
+
+  <project name="meta-oracle-java" path="layers/meta-oracle-java" remote="ib" revision="f5038025924e7e5b4f58d7ff9d67a58b8f377209"/>
+  <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="ib" revision="e906f26c0ee296459646e7c13ad93a34226fa396"/>
+  <project name="meta-isoblue" path="layers/meta-isoblue" remote="ib" revision="4d87492202fbcdbd3f269d00b5e6f1d7f503c99b"/>
+  <project name="meta-isoblue-demos" path="layers/meta-isoblue-demos" remote="ib" revision="c8bfc6f22e7537d9364f9d499f827b45341068b3">
+  ¦ ¦ <copyfile dest="isoblue.conf" src="buildconf/isoblue.conf"/>
+  ¦ ¦ <copyfile dest="export" src="buildconf/export"/>
+  </project>
 </manifest>

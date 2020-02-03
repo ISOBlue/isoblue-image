@@ -1,40 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote alias="repo" fetch="http://github.com/Angstrom-distribution" name="githa"/>
-  <remote alias="repo" fetch="http://github.com/Freescale" name="githf"/>
-  <remote alias="repo" fetch="http://github.com/OSSystems" name="githo"/>
-  <remote alias="repo" fetch="http://github.com/meta-qt5" name="githq"/>
-  <remote alias="repo" fetch="http://github.com/morphis" name="giths"/>
-  <remote alias="repo" fetch="http://github.com/watatuki" name="githt"/>
-  <remote alias="repo" fetch="http://git.linaro.org/git-ro/openembedded" name="linaro"/>
-  <remote alias="repo" fetch="http://github.com/openembedded" name="oe"/>
-  <remote alias="repo" fetch="http://git.toradex.com" name="tdx"/>
+  <remote alias="repo" fetch="https://github.com/Angstrom-distribution" name="githa"/>
+  <remote alias="repo" fetch="https://github.com/Freescale" name="githf"/>
+  <remote alias="repo" fetch="https://github.com/OSSystems" name="githo"/>
+  <remote alias="repo" fetch="https://github.com/meta-qt5" name="githq"/>
+  <remote alias="repo" fetch="https://github.com/openembedded" name="oe"/>
+  <remote alias="repo" fetch="https://github.com/schnitzeltony" name="githe"/>
+  <remote alias="repo" fetch="https://github.com/watatuki" name="githt"/>
+  <remote alias="repo" fetch="https://git.toradex.com" name="tdx"/>
   <remote alias="repo" fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote alias="repo" fetch="https://github.com/ISOBlue" name="ib"/>
 
   <default sync-j="4"/>
-
-  <project name="bitbake.git" path="layers/openembedded-core/bitbake" remote="oe" revision="32a249cf33f79b579a2cf6224c7d23cdb20d376f" upstream="1.32"/>
-  <project name="meta-angstrom.git" path="layers/meta-angstrom" remote="githa" revision="9625910bb4bb48b3f4d87a1e9ff3576d40bd656a" upstream="angstrom-v2016.12-yocto2.2"/>
-  <project name="meta-browser.git" path="layers/meta-browser" remote="githo" revision="1569eeb9cc1b87632abbf35fbb05f4ac4eeb3987" upstream="morty"/>
-  <project name="meta-freescale-3rdparty.git" path="layers/meta-freescale-3rdparty" remote="githf" revision="1879485e63ce369292c89b5902ff6df13509090b" upstream="morty"/>
-  <project name="meta-freescale-distro.git" path="layers/meta-freescale-distro" remote="githf" revision="cd5c7a2539f40004f74126e9fdf08254fd9a6390" upstream="morty"/>
-  <project name="meta-freescale.git" path="layers/meta-freescale" remote="githf" revision="05681fdf8298bb441c15135eae424c7601b07e98" upstream="morty"/>
+  
+  <project name="bitbake.git" path="layers/openembedded-core/bitbake" remote="oe" revision="2e4845c526117d5524cff910afbb6f8212a3e199" upstream="1.36"/>
+  <project name="meta-angstrom.git" path="layers/meta-angstrom" remote="githa" revision="4318892e08ea9102d29bdd92af83539bea985e4b" upstream="angstrom-v2017.12-rocko"/>
+  <project name="meta-browser.git" path="layers/meta-browser" remote="githo" revision="75640e14e325479c076b6272b646be7a239c18aa" upstream="master"/>
+  <project name="meta-freescale-3rdparty.git" path="layers/meta-freescale-3rdparty" remote="githf" revision="e71ace9ede9b58f2ed3381a53fdc814f8e963c60" upstream="rocko"/>
+  <project name="meta-freescale-distro.git" path="layers/meta-freescale-distro" remote="githf" revision="51756d1c2058139c8a21f89b86cfd8007b71b7f0" upstream="rocko"/>
+  <project name="meta-freescale.git" path="layers/meta-freescale" remote="githf" revision="61ab34ac6d664a229847b796ec20fd9f7c8ecbf4" upstream="rocko"/>
   <project name="meta-jetson-tk1.git" path="layers/meta-jetson-tk1" remote="githt" revision="e8b87fe8da7c6fcffa37ab245f50082953cc1ee1" upstream="Morty"/>
-  <project name="meta-linaro.git" path="layers/meta-linaro" remote="linaro" revision="49b0f32d7e955f250b0022d1b2f403f45a2c2d9c" upstream="morty"/>
-  <project name="meta-lxde.git" path="layers/meta-lxde" remote="tdx" revision="1bd36a4d0f7e1e9fdea9c4c991188bc1dc9da421" upstream="morty"/>
-  <project name="meta-openembedded.git" path="layers/meta-openembedded" remote="oe" revision="b40116cf457b88a2db14b86fda9627fb34d56ae6" upstream="morty"/>
-  <project name="meta-qt4" path="layers/meta-qt4" remote="yocto" revision="f389368dc86e745df14cab9eeb9a94bc02bd273e" upstream="morty"/>
-  <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="2c9f0e4eb0e9097f6f872ec1e1d81768a8ab5f1b" upstream="morty"/>
-  <project name="meta-snappy.git" path="layers/meta-snappy" remote="giths" revision="f6df6a63756d9976bcccb5fefdbc64e5cc794c99" upstream="master"/>
-  <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="429d294f9b271433d4d0130530677dc417e6ec6e" upstream="morty"/>
-  <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="tdx" revision="942eeb98172f74e9fbf8f6053cf241e3fb98110b" upstream="morty"/>
-  <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="b835e9bf9da6ebc8fd5728b4587470e9a57d5966" upstream="morty"/>
-  <project name="meta-oracle-java" path="layers/meta-oracle-java" remote="ib" revision="f5038025924e7e5b4f58d7ff9d67a58b8f377209"/>
-  <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="ib" revision="2e55ead526614b39fe7b7862d06002a333feb3d2"/>
-  <project name="meta-isoblue" path="layers/meta-isoblue" remote="ib" revision="4d87492202fbcdbd3f269d00b5e6f1d7f503c99b"/>
-  <project name="meta-isoblue-demos" path="layers/meta-isoblue-demos" remote="ib" revision="8b74a1b643dfacf2ebf8295b35f8fdc037579328">
-      <copyfile dest="isoblue.conf" src="buildconf/isoblue.conf"/>
-      <copyfile dest="export" src="buildconf/export"/>
+  <project name="meta-lxde.git" path="layers/meta-lxde" remote="tdx" revision="f436137fcc4ac700dc5c1b5e31e5b3c27568fc3e" upstream="rocko"/>
+  <project name="meta-openembedded.git" path="layers/meta-openembedded" remote="oe" revision="eae996301d9c097bcbeb8046f08041dc82bb62f8" upstream="rocko"/>
+  <project name="meta-qt4" path="layers/meta-qt4" remote="yocto" revision="e290738759ef3f39c9e079eaa9b606a62107e5ba" upstream="rocko"/>
+  <project name="meta-qt5-extra.git" path="layers/meta-qt5-extra" remote="githe" revision="79e26686520f2ce5f743975e90116b263a33697f" upstream="rocko"/>
+  <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="d8b531530fa42b59aa0a5b123d87a30d749cbcc4" upstream="rocko"/>
+  <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="78e1cdabe0baeb794945bd4926c28058f9f12aa9" upstream="rocko"/>
+  <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="014344d116f7c17c10be35d0d2a66a0038df6c75" upstream="rocko">
+    <copyfile dest="export" src="buildconf/export"/>
   </project>
+  <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="tdx" revision="a5f5d85e52717e136e692478fb5d822c1ce70046" upstream="rocko"/>
+  <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="tdx" revision="c10c7168712fa47e50440a7b7b012118939a3371" upstream="rocko"/>
+  <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="3638cb32ba9ba32b4d498fc31ab7fdf82f0d2495" upstream="rocko"/>
 </manifest>

@@ -30,9 +30,9 @@
   <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="3638cb32ba9ba32b4d498fc31ab7fdf82f0d2495" upstream="rocko"/>
 
   <project name="meta-oracle-java" path="layers/meta-oracle-java" remote="ib" revision="f5038025924e7e5b4f58d7ff9d67a58b8f377209"/>
-  <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="ib" revision="e906f26c0ee296459646e7c13ad93a34226fa396"/>
-  <project name="meta-isoblue" path="layers/meta-isoblue" remote="ib" revision="4d87492202fbcdbd3f269d00b5e6f1d7f503c99b"/>
-  <project name="meta-isoblue-demos" path="layers/meta-isoblue-demos" remote="ib" revision="c8bfc6f22e7537d9364f9d499f827b45341068b3">
+  <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="ib" revision="9b0b291894c0e87468484b6c12aad9298f415c25"/>
+  <project name="meta-isoblue" path="layers/meta-isoblue" remote="ib" revision="2f6a082bc5c8d8f5a2c260b7db1f09e5d730d460"/>
+  <project name="meta-isoblue-demos" path="layers/meta-isoblue-demos" remote="ib" revision="6f1676cac867f4eb322a2d794f97f3bafffad289">
   ¦ ¦ <copyfile dest="isoblue.conf" src="buildconf/isoblue.conf"/>
   ¦ ¦ <copyfile dest="export" src="buildconf/export"/>
   </project>
